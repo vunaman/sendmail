@@ -10,7 +10,7 @@ setup(
     author_email='an.vu.k18bku@hcmut.edu.vn',
     description='OpenWRT Test for Python package',
     packages=find_packages(),    
-    install_requires=['python3'],
+    install_requires=['ssl','smtplib'],
     py_modules=[
         'sendmail',
     ],
